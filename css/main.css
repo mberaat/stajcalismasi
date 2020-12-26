@@ -1,0 +1,453 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color:#000001;
+}
+
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+    width: 30%;
+    padding:10%;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+
+
+.fa-bars{
+    color: white;
+}
+
+.nav-active{
+    border-bottom: 5px solid #F2AA28;
+}
+
+.image-cover{
+    position:relative;
+}
+
+.urunler{
+    width: 100%;
+    height: 300px;
+}
+
+.lorem{
+    position:absolute;
+    left: 15%;
+    top: 50px;
+    color: white;
+    font-size:38px;
+}
+
+.firma{
+    position:absolute;
+    left: 15%;
+    top: 110px;
+    color: white;
+}
+
+.firma>a{
+    color:#F2AA28;
+    text-decoration: none;
+}
+
+.firma>a:hover{
+    color:#F2AA28;
+    text-decoration: none;
+}
+
+.logo-btn{
+    width: 15%;
+    height: 25%;
+    background-color: #F2AA28;
+    position: absolute;
+    left: 15%;
+    top:75%;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.logo-btn-left{
+    width: 65%;
+    height: 65%;
+    border-radius: 100%;
+    background-color:#D1921F;
+    margin-top: 7%;
+    margin-left: -40%;
+}
+
+.logo-btn>p{
+    font-size: 38px;
+    color: white;
+    position: absolute;
+    top: 15%;
+    bottom: auto;
+    left: 15%;
+}
+
+.macbook-main{
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    background-color: #F2AA28;
+    margin:20%;
+}
+
+.macbook{
+    width: 200%;
+    height: 150%;
+}
+
+.content-wrap{
+    width: 100%;
+    height: 700px;
+}
+
+.content{
+    padding:10%;
+    height: 70%;
+    padding-top:10%;
+    padding-bottom: 0%;
+}
+
+.baslik{
+    width: 100%;
+    height:90px;
+}
+
+.baslik>h2{
+    display: inline-block;
+}
+
+.baslik>a{
+    padding:5px;
+    color: #F2AA28;
+    text-decoration: none;
+    font-size:30px;
+}
+
+.baslik>a:hover{
+    padding:5px;
+    color: #F2AA28;
+    text-decoration: none;
+    font-size:30px;
+}
+
+.lorem-destek{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.container-ts{
+    text-align: center;
+    font-size: 24px;
+}
+
+.t-icon{
+    width:100px;
+    height: 100px;
+    background-color:#F2AA28;
+    margin:10%;
+    padding:3%;
+}
+
+.icon-destek{
+    width: 100%;
+    height: 100%;
+    padding:1%;
+}
+
+.lorem1{
+    width: 100%;
+    height: 100%;
+    padding: 10% 0%;
+}
+
+.div-bg{
+    background-image: url("../image/bg-div.jpg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-lorem-text{
+    text-align: center;
+    padding:20px;
+    color:white;
+}
+
+.bg-lorem-text>h5>a{
+    color:#F2AA28;
+    text-decoration: none;
+}
+
+table{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+
+.madde-icon{
+    width: 10px;
+    height: 10px;
+    padding:0px;
+    margin: 0px;
+}
+
+.maddeler{
+    padding: 10px 0px 0px 15px;
+    width:60%;
+}
+
+.container-head{
+    margin-top: 10%;
+}
+
+.container-head>h4>a{
+    text-decoration:none;
+    color:#F2AA28;
+}
+
+.cloud-menu{
+    padding:5%;
+}
+
+.cloud-image{
+    width: 100%;
+    height: auto;
+    padding:10%;
+}
+
+.cloud-image>img{
+    width: 80%;
+}
+
+.cloud-text{
+    width: 100%;
+    height: auto;
+    padding: 10%;
+}
+
+.cloud-text>h4>a{
+    text-decoration: none;
+    color:#F2AA28;
+}
+
+
+.ok{
+    border-color: transparent transparent blue transparent;
+    border-style: solid;
+    border-width: 0px 25px 50px 25px;
+    width: 0px;
+    height: 0px;
+}
+
+.tab-menu{
+    padding: 5%;
+
+}
+
+.tab-link{
+    border: 1px solid #000001;
+    color:#000001;
+    position: relative;
+}
+
+.tab-link:hover{
+    border: 1px solid #D1921F;
+    background-color: #D1921F;
+    color:#000001;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border: 1px solid #F2AA28;
+    background-color: #F2AA28 !important;
+    color:#000001;
+}
+
+.nav-link.active>.caret{
+    display: inline-block;
+}
+
+.caret{
+    border-color: transparent transparent #F2AA28 transparent;
+    border-style: solid;
+    border-width: 0px 8px 16px 8px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -15px;
+    left: 47%;
+    right: 47%;
+    display: none;
+}
+
+.tab-pane{
+    padding: 3%;
+}
+
+.accordion-head>h4>a{
+    text-decoration: none;
+    color:#F2AA28;
+}
+
+.accordion-item{
+    padding: 1%;
+}
+
+.accordion-header{
+    border: 1px solid #707070;
+}
+
+.accordion-button::after{
+    background-image: url("../image/eksi.png") !important;
+    height: auto;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("../image/arti.png") !important;
+}
+
+.accordion-button:not(.collapsed){
+    color: #000001 !important;
+    background-color:#ffffff !important;
+}
+
+.accordion-button:focus{
+    border-color: transparent !important;
+    box-shadow: 0 0 0 0.25rem transparent !important;
+}
+
+.container-video{
+    margin:10% ;
+}
+
+
+.video{
+    width: 100%;
+    height: auto;
+    padding:10%;
+    background-color:#F7F7F7;
+}
+
+
+.video-text{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    padding: 10% 30% 10% 0%;
+}
+
+.video-text>img{
+    width: 50%;
+    height: 50%;
+}
+
+.video-text>h3>a{
+    text-decoration: none;
+    color:#F2AA28;
+    font-size:28px;
+}
+
+.video-pop-up>a>img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-video{
+    background-color:#F2AA28 !important;
+    border-color: #F2AA28 !important;
+    padding-left:10% !important;
+    padding-right:10% !important;
+}
+
+footer{
+    background-color:#000001;
+    color:#ffffff;
+}
+
+.footer-logo{
+    padding:5%;
+}
+
+.footer-logo>a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:7px;
+    font-weight:bold;
+}
+
+.footer-logo>a:hover{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:7px;
+}
+
+.footer-nav{
+    padding:5%;
+
+}
+
+.footer-nav a{
+    text-decoration:none;
+}
+
+.footer-nav-active{
+    border-bottom:1px solid #ffffff;
+}
+
+.footer-nav1{
+    float:left;
+}
+
+.footer-nav1 ul li{
+    list-style:none;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.footer-iletisim{
+    padding:5%;
+    color:#ffffff;
+}
+
+.footer-bottom{
+    border:1px solid #1A1A1B;
+}
+
+.footer-bottom-social div{
+    float:left;
+    padding:1%;
+    border: 1px solid #1A1A1B;
+}
+
+.footer-bottom-social div a{
+    color: #ffffff;
+}
